@@ -1,0 +1,12 @@
+{
+ "state": "A book has 300 pages. Sara reads 22 pages a day for 6 days, then 15 pages a day for 4 days.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Has she read more than half the book?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

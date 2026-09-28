@@ -1,0 +1,12 @@
+{
+ "state": "A jar holds 3 red marbles and 5 green marbles.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is a single marble drawn at random more likely to be red than green?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

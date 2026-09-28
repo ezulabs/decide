@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Humans use only ten percent of their brains.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

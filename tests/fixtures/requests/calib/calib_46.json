@@ -1,0 +1,12 @@
+{
+ "state": "A train leaves at 09:50 and arrives at 12:05 the same day.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the journey longer than two and a half hours?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

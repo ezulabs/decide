@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Water freezes into ice at 0 degrees Celsius at standard atmospheric pressure.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Every square is a rectangle.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

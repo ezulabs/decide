@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Some mammals lay eggs.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

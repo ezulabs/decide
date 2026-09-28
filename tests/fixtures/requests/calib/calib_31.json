@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Peanuts are legumes rather than true nuts.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

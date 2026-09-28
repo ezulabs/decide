@@ -1,0 +1,12 @@
+{
+ "state": "A tank holds 240 litres and is three-quarters full. Then 30 litres leak out.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Does the tank now hold more than 150 litres?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

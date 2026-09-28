@@ -1,0 +1,42 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/decide-metal",
+    "crates/decide-ane",
+    "crates/decide-prompt",
+    "crates/decide-engine",
+    "crates/decide-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+rust-version = "1.85"
+
+[workspace.dependencies]
+decide-metal = { path = "crates/decide-metal" }
+decide-ane = { path = "crates/decide-ane" }
+decide-prompt = { path = "crates/decide-prompt" }
+decide-engine = { path = "crates/decide-engine" }
+anyhow = "1"
+half = "2"
+memmap2 = "0.9"
+metal = "0.27"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order", "arbitrary_precision"] }
+safetensors = "0.4"
+tokenizers = { version = "0.23", default-features = false, features = ["onig"] }
+ryu = "1"
+clap = { version = "4", features = ["derive"] }
+rand = "0.8"
+
+[profile.release]
+opt-level = 3
+debug = 1            # symbols for Instruments
+
+[profile.dist]       # shipping build: cargo build --profile dist
+inherits = "release"
+lto = "fat"
+codegen-units = 1
+debug = 0

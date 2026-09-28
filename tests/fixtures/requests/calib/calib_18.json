@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Glass is a slow-flowing liquid, which is why old window panes are thicker at the bottom.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

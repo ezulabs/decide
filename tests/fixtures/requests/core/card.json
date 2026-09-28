@@ -1,0 +1,26 @@
+{
+ "state": "The customer was charged twice and asks for the extra payment back.",
+ "questions": {
+  "team": {
+   "type": "choice",
+   "instructions": "Which team should handle this request?",
+   "criteria": {
+    "billing": "Payments and refunds",
+    "delivery": "Shipping and delivery"
+   }
+  },
+  "urgency": {
+   "type": "score",
+   "instructions": "Rate the priority.",
+   "criteria": [
+    "Low",
+    "Medium",
+    "High"
+   ]
+  },
+  "refund_requested": {
+   "type": "noul",
+   "instructions": "Is the customer asking for a refund?"
+  }
+ }
+}

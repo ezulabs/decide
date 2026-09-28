@@ -1,0 +1,7 @@
+# decide-ane links the OS Swift runtime (/usr/lib/swift). Most of it resolves
+# by absolute install name, but the back-deployable libswift_Concurrency.dylib
+# is linked as @rpath, so every binary that links the shim — the CLI and the
+# test binaries — needs this rpath. A dependency's build script cannot add a
+# link argument to its dependents, so it lives here.
+[target.aarch64-apple-darwin]
+rustflags = ["-C", "link-arg=-Wl,-rpath,/usr/lib/swift"]

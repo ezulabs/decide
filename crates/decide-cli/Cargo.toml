@@ -1,0 +1,17 @@
+[package]
+name = "decide-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "decide"
+path = "src/main.rs"
+
+[dependencies]
+decide-engine.workspace = true
+decide-prompt.workspace = true
+anyhow.workspace = true
+clap.workspace = true
+serde_json.workspace = true

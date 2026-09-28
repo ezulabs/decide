@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: The Moon shines because it produces its own light.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

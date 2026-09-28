@@ -1,0 +1,12 @@
+{
+ "state": "A cube has edges of 3 centimetres.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is its volume in cubic centimetres a larger number than its surface area in square centimetres?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

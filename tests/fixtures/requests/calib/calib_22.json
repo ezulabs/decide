@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Mercury is the hottest planet in the Solar System.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Lightning never strikes the same place twice.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

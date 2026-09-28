@@ -1,0 +1,27 @@
+[package]
+name = "decide-engine"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+decide-ane.workspace = true
+decide-metal.workspace = true
+decide-prompt.workspace = true
+anyhow.workspace = true
+block = "0.1"
+half.workspace = true
+memmap2.workspace = true
+metal.workspace = true
+# A normal dependency, not a dev-dependency: `testutil` (public, for the
+# integration tests) draws its seeded inputs from it.
+rand.workspace = true
+safetensors.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2 = "0.10"
+
+[lints.rust]
+# objc 0.2.7's `msg_send!` (gpu_time.rs) expands a `cfg(feature = "cargo-clippy")` check.
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(feature, values("cargo-clippy"))'] }

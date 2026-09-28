@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Sound travels faster than light through air.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

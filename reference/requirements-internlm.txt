@@ -1,0 +1,7 @@
+# InternLM's pins, unchanged from the checkpoint's requirements.txt. The gold
+# outputs and fixtures come from inference.py under exactly these versions.
+# Benchmark-only tools (mlx, mlx-lm) are pinned in requirements-bench.txt.
+torch==2.9.1
+torchvision==0.24.1
+transformers==5.14.1
+Pillow>=10.0.0

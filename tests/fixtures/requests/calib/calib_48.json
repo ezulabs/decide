@@ -1,0 +1,12 @@
+{
+ "state": "A meeting starts at 16:45 and runs for 95 minutes.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Does it end before 18:00?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

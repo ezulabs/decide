@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: It is not the case that every bird can fly.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

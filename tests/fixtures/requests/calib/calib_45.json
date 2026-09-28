@@ -1,0 +1,12 @@
+{
+ "state": "A rectangle measures 7 metres by 4 metres.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is its perimeter in metres a larger number than its area in square metres?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

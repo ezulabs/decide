@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Every whole number divisible by 6 is also divisible by 3.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

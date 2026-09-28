@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: There are 60 seconds in one hour.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

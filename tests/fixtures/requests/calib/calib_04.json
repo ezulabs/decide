@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Jupiter is the largest planet in the Solar System.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

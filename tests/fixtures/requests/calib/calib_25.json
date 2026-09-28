@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Antarctica counts as a desert under the meteorological definition, which is based on precipitation.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

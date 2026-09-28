@@ -1,0 +1,15 @@
+[package]
+name = "decide-ane"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+build = "build.rs"
+description = "Core ML / Apple Neural Engine shim for decide's GPU+ANE MLP split (Swift behind a C ABI)"
+
+[dependencies]
+anyhow.workspace = true
+metal.workspace = true
+
+[dev-dependencies]
+half.workspace = true

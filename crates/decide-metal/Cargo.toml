@@ -1,0 +1,16 @@
+[package]
+name = "decide-metal"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+build = "build.rs"
+
+[dependencies]
+anyhow.workspace = true
+metal.workspace = true
+
+[dev-dependencies]
+half.workspace = true
+memmap2.workspace = true
+rand.workspace = true

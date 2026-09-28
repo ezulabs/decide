@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: No prime number greater than 2 is even.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

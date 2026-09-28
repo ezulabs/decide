@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Water is made of hydrogen and nitrogen.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

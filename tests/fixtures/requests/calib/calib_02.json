@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: One kilometre is 1000 metres.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "state": "A shop sells pens at 3 for 2 coins.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Would 12 pens cost 8 coins?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

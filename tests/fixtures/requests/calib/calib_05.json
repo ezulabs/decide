@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Ice floats on liquid water because ice is the less dense of the two.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

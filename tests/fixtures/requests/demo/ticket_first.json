@@ -1,0 +1,48 @@
+{
+  "state": "From: dana@northwind-logistics.example\nSubject: URGENT - charged twice, shipment stuck\n\nHi, this is the third time I'm writing. You billed my card twice on the 14th\n(invoice #44812, $1,240 each) and the refund still hasn't landed. Meanwhile the\npallet you were supposed to pick up on Tuesday is still sitting in our dock and\nmy client is threatening to walk. I've been a customer for six years. If this\nisn't resolved today I'm moving the account to Sendline and I'll be disputing\nboth charges with my bank.",
+  "questions": {
+    "angry": {
+      "type": "noul",
+      "instructions": "Is the customer angry?"
+    },
+    "refund": {
+      "type": "noul",
+      "instructions": "Is the customer asking for a refund?"
+    },
+    "churn_risk": {
+      "type": "noul",
+      "instructions": "Is the customer threatening to leave?"
+    },
+    "department": {
+      "type": "choice",
+      "instructions": "Which team owns this?",
+      "criteria": {
+        "Billing": "Payments",
+        "Logistics": "Shipping",
+        "Sales": "Plans and upgrades",
+        "Support": "Technical problems"
+      }
+    },
+    "primary_issue": {
+      "type": "choice",
+      "instructions": "What is the main issue?",
+      "criteria": {
+        "duplicate_charge": "Charged twice",
+        "late_delivery": "Package late",
+        "damaged": "Item damaged",
+        "other": "Something else"
+      }
+    },
+    "urgency": {
+      "type": "score",
+      "instructions": "How urgent is this?",
+      "criteria": {
+        "1": "Low",
+        "2": "Minor",
+        "3": "Normal",
+        "4": "High",
+        "5": "Critical"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Human blood is blue inside the veins and turns red only on contact with air.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

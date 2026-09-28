@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: For equal volumes, gold weighs more than lead.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "state": "Seven people each shake hands exactly once with every other person.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Are there more than 20 handshakes in total?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

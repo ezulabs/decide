@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Diamond is a form of carbon.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

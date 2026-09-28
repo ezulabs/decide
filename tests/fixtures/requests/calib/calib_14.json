@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: Iron is a gas at room temperature.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "state": "RULE: If it is raining, the ground is wet.\nFACT: The ground is wet.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Does it follow with certainty that it is raining?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

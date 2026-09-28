@@ -1,0 +1,12 @@
+{
+ "state": "A jacket costs 80 coins. The price is cut by 25 percent, and the new price is then raised by 25 percent.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the final price equal to the original 80 coins?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

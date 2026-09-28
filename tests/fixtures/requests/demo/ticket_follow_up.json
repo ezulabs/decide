@@ -1,0 +1,30 @@
+{
+  "state": "From: dana@northwind-logistics.example\nSubject: URGENT - charged twice, shipment stuck\n\nHi, this is the third time I'm writing. You billed my card twice on the 14th\n(invoice #44812, $1,240 each) and the refund still hasn't landed. Meanwhile the\npallet you were supposed to pick up on Tuesday is still sitting in our dock and\nmy client is threatening to walk. I've been a customer for six years. If this\nisn't resolved today I'm moving the account to Sendline and I'll be disputing\nboth charges with my bank.",
+  "questions": {
+    "escalate": {
+      "type": "noul",
+      "instructions": "Should a supervisor take over this ticket?"
+    },
+    "dispute_risk": {
+      "type": "noul",
+      "instructions": "Is the customer likely to dispute the charges with the bank?"
+    },
+    "reply_channel": {
+      "type": "choice",
+      "instructions": "How should we reply first?",
+      "criteria": {
+        "phone": "Call the customer now",
+        "email": "Email with the details"
+      }
+    },
+    "offer": {
+      "type": "choice",
+      "instructions": "What should we offer?",
+      "criteria": {
+        "refund": "Refund the duplicate charge",
+        "credit": "Account credit",
+        "none": "Nothing extra"
+      }
+    }
+  }
+}

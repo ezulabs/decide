@@ -1,0 +1,16 @@
+# weights and model downloads
+/models
+/weights
+*.safetensors
+
+# build output
+target/
+
+# python environments
+reference/.venv/
+/.venv-ane/
+
+.DS_Store
+
+# python bytecode
+__pycache__/

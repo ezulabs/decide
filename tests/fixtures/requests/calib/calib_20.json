@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: The Danube flows through Vienna, Budapest and Prague.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

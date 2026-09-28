@@ -1,0 +1,12 @@
+{
+ "state": "RULE: Every tool in the blue box is made of metal.\nFACT: The hammer is in the blue box.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Does it follow with certainty that the hammer is made of metal?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

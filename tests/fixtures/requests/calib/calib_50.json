@@ -1,0 +1,12 @@
+{
+ "state": "A car covers 150 kilometres in 2 hours.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is its average speed above 70 kilometres per hour?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

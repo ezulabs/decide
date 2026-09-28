@@ -1,0 +1,12 @@
+{
+ "state": "A recipe for 4 people uses 300 grams of rice.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Does the same recipe scaled to 6 people use 450 grams of rice?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

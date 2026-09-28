@@ -1,0 +1,12 @@
+{
+ "state": "RULE: Everyone in the room is wearing a badge.\nFACT: Mira is wearing a badge.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Does it follow with certainty that Mira is in the room?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}

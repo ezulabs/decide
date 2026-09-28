@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: A tomato is botanically a fruit.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": true
+ }
+}

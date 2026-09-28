@@ -1,0 +1,12 @@
+{
+ "state": "STATEMENT: No mammal is capable of powered flight.",
+ "questions": {
+  "answer": {
+   "type": "noul",
+   "instructions": "Is the statement true?"
+  }
+ },
+ "_meta": {
+  "truth": false
+ }
+}
